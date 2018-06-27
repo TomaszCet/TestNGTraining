@@ -149,5 +149,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# maven target folder
+target/
 
 # End of https://www.gitignore.io/api/windows,eclipse,intellij
