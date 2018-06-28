@@ -2,16 +2,16 @@ import org.testng.Assert;
 import org.testng.annotations.*;
 import org.testng.asserts.SoftAssert;
 
-public class DemoTest extends BaseTest {
+public class Demo2Test extends BaseTest {
 
     @BeforeClass
     public void setUp(){
-        System.out.println("Before Class");
+        System.out.println("Before Class 2");
     }
 
     @AfterClass
     public void cleanUp(){
-        System.out.println("After Class");
+        System.out.println("After Class 2");
     }
 
     @BeforeMethod

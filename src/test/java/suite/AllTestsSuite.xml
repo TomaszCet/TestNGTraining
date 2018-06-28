@@ -1,0 +1,8 @@
+<suite name ="All Test Cases">
+    <test name="app test">
+        <classes>
+            <class name="Demo2Test"></class>
+            <class name="DemoTest"></class>
+        </classes>
+    </test>
+</suite>
