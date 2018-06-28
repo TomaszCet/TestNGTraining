@@ -1,0 +1,23 @@
+<suite name ="All Test Cases">
+    <test name="groups demo">
+        <groups>
+            <run>
+                <include name="add"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="Grupy"></class>
+        </classes>
+    </test>
+    <test name="groups demo2">
+        <groups>
+            <run>
+                <include name="get"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="Grupy"></class>
+        </classes>
+    </test>
+
+</suite>
