@@ -1,7 +1,4 @@
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.*;
 
 public class BaseTest {
 
@@ -27,4 +24,13 @@ public class BaseTest {
         System.out.println("After BaseTest Class");
     }
 
+    @BeforeTest
+    public void setUpTest(){
+        System.out.println("Before Test");
+    }
+
+    @AfterTest
+    public void cleanUpTest(){
+        System.out.println("After Test");
+    }
 }
