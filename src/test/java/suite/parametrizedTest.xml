@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name ="Parametrized Cases">
+    <test name="test with parameters">
+        <parameter name="browser" value ="firefox"></parameter>
+        <parameter name="platform" value ="windows"></parameter>
+        <classes>
+            <class name="DemoParametrizedTest"></class>
+        </classes>
+    </test>
+</suite>
